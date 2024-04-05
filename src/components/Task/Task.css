@@ -1,0 +1,44 @@
+.task {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 202, 202);
+    min-height: 10vh;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task__text {
+    margin: 0;
+}
+
+.task__text_solved {
+    text-decoration: line-through;
+    margin: 0;
+    color: rgb(133, 133, 133);
+}
+
+.task__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task__button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    transition: 1s ease-out;
+}
+
+.task__button_chocolate {
+    color: chocolate;
+}
+
+.task__button_red {
+    color: firebrick;
+}
+
+.task__button:hover {
+    opacity: .5;;
+}
